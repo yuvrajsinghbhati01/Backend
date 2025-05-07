@@ -21,6 +21,19 @@ class DataProcessor:
         try:
             # Define the expected CSV files for different years
             csv_files = {
+                '1952': 'lok_sabha_1952_data.csv',
+                '1957': 'lok_sabha_1957_data.csv',
+                '1962': 'lok_sabha_1962_data.csv',
+                '1967': 'lok_sabha_1967_data.csv',
+                '1971': 'lok_sabha_1971_data.csv',
+                '1977': 'lok_sabha_1977_data.csv',
+                '1980': 'lok_sabha_1980_data.csv',
+                '1984': 'lok_sabha_1984_data.csv',
+                '1989': 'lok_sabha_1989_data.csv',
+                '1991': 'lok_sabha_1991_data.csv',
+                '1996': 'lok_sabha_1996_data.csv',
+                '1998': 'lok_sabha_1998_data.csv',
+                '1999': 'lok_sabha_1999_data.csv',
                 '2004': 'lok_sabha_2004_data.csv',
                 '2009': 'lok_sabha_2009_data.csv',
                 '2014': 'lok_sabha_2014_data.csv',
